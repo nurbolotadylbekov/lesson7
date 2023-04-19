@@ -46,22 +46,19 @@ int multiply(int a, int b) {
   return (a * b);
 }
 
-// *** 4 ***
 void multiply2(int a, int b) {
   print(a * b);
 }
 
-// *** 5 ***
 int divide(int a, int b) {
   return (a ~/ b);
 }
 
-// *** 6 ***
 void divide2(int a, int b) {
   print(a ~/ b);
 }
 
-// *** 7 ***
+// *** 2-2 ***
 void greater(int a, int b) {
   if (a > b) {
     print("a>b = True");
@@ -70,7 +67,6 @@ void greater(int a, int b) {
   }
 }
 
-// *** 8 ***
 void smaller(int a, int b) {
   if (a < b) {
     print("a<b = True");
@@ -79,7 +75,6 @@ void smaller(int a, int b) {
   }
 }
 
-// *** 9 ***
 void smallerEqual(int a, int b) {
   if (a <= b) {
     print("a<=b = True");
@@ -88,7 +83,6 @@ void smallerEqual(int a, int b) {
   }
 }
 
-// *** 10 ***
 void greaterEqual(int a, int b) {
   if (a >= b) {
     print("a>=b = True");
@@ -97,7 +91,6 @@ void greaterEqual(int a, int b) {
   }
 }
 
-// *** 11 ***
 void equal(int a, int b) {
   if (a == b) {
     print("a==b = True");
@@ -106,29 +99,29 @@ void equal(int a, int b) {
   }
 }
 
-// *** 12 ***
+// *** 1 ***
 void showUser(String username, int age) {
   print("Username: ${username}, Age: ${age}");
 }
 
-// *** 13 ***
+// *** 2 ***
 List showList(List a) {
   return [a.first, a.last];
 }
 
-// *** 14 ***
+// *** 3 ***
 dynamic hypotenuse(dynamic a, dynamic b) {
   print(sqrt(a * a + b * b));
 }
 
-// *** 15 ***
+// *** 4 ***
 void square(int a, int b) {
   for (int i = 1; i <= a; i++) {
     print("*" * b);
   }
 }
 
-// *** 16 ***
+// *** 5 ***
 void pyramid(int n) {
   int x = n ~/ 2;
   int j = 1;
@@ -147,7 +140,7 @@ void pyramid(int n) {
   }
 }
 
-// *** 1 ***
+// *** 6 ***
 void checkEq(int a) {
   if (a >= 100000 && a <= 999999) {
     List arr = a.toString().split('').map(int.parse).toList();
@@ -161,6 +154,7 @@ void checkEq(int a) {
   }
 }
 
+// *** 7 ***
 void checkEq2(int a) {
   List arr = a.toString().split('').map(int.parse).toList();
   if (arr[0] >= 1 && arr[0] <= 3) {
@@ -170,6 +164,7 @@ void checkEq2(int a) {
   }
 }
 
+// *** 8 ***
 dynamic checkEq3(dynamic a) {
   List arr = a.split('');
   if (arr[0] == "a") {
